@@ -1,0 +1,13 @@
+build
+_build
+.cache
+dist
+.ipynb_checkpoints
+__pycache__
+.pixi
+*.egg-info
+.__pycache__
+.pytest_cache
+.output
+*.log
+.coverage
