@@ -14,6 +14,7 @@ jobs:
     - uses: pre-commit/action@v3.0.1
 
   build:
+    needs: pre-commit
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
