@@ -5,14 +5,14 @@ on:
     branches: [main]
 
 jobs:
+
+  pre-commit:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: pre-commit/action@v4.4.0
+
   build:
-
-    pre-commit:
-      runs-on: ubuntu-latest
-      steps:
-        - uses: actions/checkout@v3
-        - uses: pre-commit/action@v4.4.0
-
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
