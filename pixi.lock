@@ -12349,9 +12349,9 @@ packages:
   size: 28669
   timestamp: 1733750596111
 - pypi: ./
-  name: splinart
-  version: 0.1.0
-  sha256: ff95d0de6b3d139117691b85f7988ab1f35125f715df75b31f4f0370c2810652
+  name: splinartlolo
+  version: 0.2.0
+  sha256: e0eb5b2aff3ac131f197b13ec4b0e63ea91c82b7bac9395b7dd83a05a0bc172a
   requires_dist:
   - numpy
   - matplotlib
