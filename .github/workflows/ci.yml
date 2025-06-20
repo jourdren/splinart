@@ -10,7 +10,6 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        python-version: [3.8, 3.9, "3.10", 3.11,  3.12]
         os:
           - ubuntu-latest
           - macos-latest
@@ -28,7 +27,5 @@ jobs:
       with:
         pixi-version: v0.44.0
         cache: false
-
-    - run: pixi add python=${{ matrix.python-version }}
 
     - run: pixi run pytest
