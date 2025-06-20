@@ -1,0 +1,6 @@
+ sphinx
+ nbsphinx
+ pydata-sphinx-theme
+ numpydoc
+ nbsphinx-link
+ myst-parser
